@@ -5,6 +5,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "standard": {
+    "parser": "babel-eslint"
+  },
   "dependencies": {
     "next": "^7.0.1",
     "next-toolkit": "^1.0.0-alpha.1",
