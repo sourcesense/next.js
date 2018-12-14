@@ -1,9 +1,11 @@
 import React from 'react'
 import { withLoader } from 'next-toolkit'
+import Nav from '../components/nav'
 
 const Home = () => (
   <div>
-    HELLO WORLD
+    <h1>HELLO WORLD</h1>
+    <Nav />
   </div>
 )
 
